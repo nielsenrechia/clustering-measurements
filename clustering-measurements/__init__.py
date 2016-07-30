@@ -1,11 +1,15 @@
 from math import sqrt
-
 import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
 from sklearn.cluster import KMeans
-
 from measurements import Measurements
+
+__author__ = 'Nielsen Rechia'
+
+"""
+    Test
+"""
 
 if __name__ == '__main__':
     filename = 'iris.csv'
