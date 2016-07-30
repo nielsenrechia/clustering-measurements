@@ -14,10 +14,8 @@ class Measurements(object):
     @staticmethod
     def dbi(max_nc, all_centroids, all_labels, dataset):
 
-        """
-            Test
-        """
-        
+        """Test"""
+
         dbi = []
         print 'DBI (MIN)...'
         for nc in xrange(2, max_nc + 1):

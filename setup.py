@@ -8,4 +8,5 @@ setup(name='clustering-measurements',
       author_email='rechianielsen@gmail.com',
       license='MIT',
       packages=['clustering-measurements'],
+      long_description=open('README.md').read(),
       zip_safe=False)
