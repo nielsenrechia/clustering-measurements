@@ -1,10 +1,11 @@
-from measurements import Measurements
-import pandas as pd
-from sklearn.cluster import KMeans
-from matplotlib import pyplot as plt
 from math import sqrt
-import numpy as np
 
+import numpy as np
+import pandas as pd
+from matplotlib import pyplot as plt
+from sklearn.cluster import KMeans
+
+from measurements import Measurements
 
 if __name__ == '__main__':
     filename = 'iris.csv'
