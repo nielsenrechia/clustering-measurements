@@ -5,8 +5,6 @@ import numpy as np
 __author__ = 'Nielsen Rechia'
 
 
-
-
 class Measurements(object):
     def __init__(self):
         pass
